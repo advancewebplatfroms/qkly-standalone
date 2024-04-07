@@ -21,6 +21,9 @@ class Router
                 case 'api':
                     Api::dispatch($pathSegments, $params);
                     break;
+                case 'console':
+                    Console::dispatcher();
+                    break;
                 case 'docs':
                     Documentation::dispatcher();
                     break;
