@@ -20,7 +20,6 @@ class Storage
         }
     }
 
-
     public static function create($source)
     {
         $config = self::init();
